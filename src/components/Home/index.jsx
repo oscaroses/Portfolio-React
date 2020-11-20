@@ -32,11 +32,11 @@ const Home = props => {
 
   return (
     <>
-      <AppBar position="static">
+      <AppBar style={{ background: 'black' }} position="static">
         <Tabs value={selectedTab} onChange={handleChange}>
-          <Tab label="Profile" />
-          <Tab label="Projects" />
-          <Tab label="Contact" />
+          <Tab style={{ color: 'white' }} label="Profile" />
+          <Tab style={{ color: 'white' }} label="Projects" />
+          <Tab style={{ color: 'white' }} label="Contact" />
         </Tabs>
       </AppBar>
       {selectedTab === 0 && <Profile />}
