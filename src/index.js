@@ -5,6 +5,7 @@ import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 import { CssBaseline } from '@material-ui/core';
 import { BrowserRouter as Router } from "react-router-dom";
+import Footer from './components/Footer'
 
 const rootElement = document.getElementById("root");
 
@@ -14,6 +15,7 @@ ReactDOM.render(
       <CssBaseline />
       <App />
     </Router>
+    <Footer />
   </React.StrictMode>,
   rootElement
 );

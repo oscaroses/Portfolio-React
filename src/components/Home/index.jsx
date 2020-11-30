@@ -32,8 +32,8 @@ const Home = props => {
 
   return (
     <>
-      <AppBar style={{ background: 'black' }} position="static">
-        <Tabs value={selectedTab} onChange={handleChange}>
+      <AppBar  style={{ background: 'black' }} position="static">
+        <Tabs display="flex" justifyContent="center" value={selectedTab} onChange={handleChange}>
           <Tab style={{ color: 'white' }} label="Profile" />
           <Tab style={{ color: 'white' }} label="Projects" />
           <Tab style={{ color: 'white' }} label="Contact" />
