@@ -42,7 +42,7 @@ return (
       />
       <CardMedia
         class="card"
-        image="../../img/Day-Planner.png"
+        image="./img/Day-Planner.png"
         title="Day-Planner"
       />
       <CardContent>
@@ -66,7 +66,7 @@ return (
       />
       <CardMedia
         class="card"
-        image="../../img/WeatherDashboard.png"
+        image="./img/WeatherDashboard.png"
         title="Weather Dashboard"
       />
       <CardContent>
@@ -90,7 +90,7 @@ return (
       />
       <CardMedia
         class="card"
-        image="../../img/Workout.png"
+        image="./img/Workout.png"
         title="Workout"
       />
       <CardContent>
@@ -115,7 +115,7 @@ return (
       />
       <CardMedia
         class="card"
-        image="../../img/EmployeeTrack.png"
+        image="./img/EmployeeTrack.png"
         title="EmployeeTrack"
       />
       <CardContent>
@@ -140,7 +140,7 @@ return (
       />
       <CardMedia
         class="card"
-        image="../../img/ReadMeGen.png"
+        image="./img/ReadMeGen.png"
         title="ReadMeGen"
       />
       <CardContent>
