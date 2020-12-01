@@ -23,7 +23,7 @@ export default function FixedContainer() {
       <CardHeader align="center"  title="Oscar Oses"/>
       <CardMedia
         class="card"
-        image="/img/Oscar.jpg"
+        image="../../img/Oscar.jpg"
         title="Oscar"
       /> 
       
