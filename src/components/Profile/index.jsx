@@ -30,7 +30,9 @@ export default function FixedContainer() {
       <CardContent >
         <Typography variant="body2" color="white" component="p">
          Hello, I'm Oscar Oses. <br></br>
-         I am a full-stack web developer.
+         I am a full-stack web developer.<br></br>
+         407-454-3453<br></br>
+         oscar.oses.1127@gmail.com
         </Typography>
       </CardContent>
     </Card>
