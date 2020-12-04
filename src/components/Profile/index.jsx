@@ -14,15 +14,22 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import DescriptionTwoToneIcon from '@material-ui/icons/DescriptionTwoTone';
 
+
 export default function FixedContainer() {
+
+  
+  // const classes = useStyles();
+
   return (
     <React.Fragment>
       <CssBaseline />
       <Container style={{ background: 'black', color: 'white' }} fixed align="center">
-        <Card style={{ background: 'black', color: 'white' }} class="card">
+        <Card style={{ background: 'black', color: 'white', width: '250px'}} >
       <CardHeader align="center"  title="Oscar Oses"/>
       <CardMedia
-        class="card"
+        component="img"
+        alt="Oscar"
+        height="%100"
         image="./img/Oscar.jpg"
         title="Oscar"
       /> 
@@ -67,7 +74,7 @@ export default function FixedContainer() {
         <IconButton style={{ color: '#1196f5' }} href="https://www.facebook.com/kn0wsk1ll" aria-label="Facebook">
           <FacebookIcon fontSize="large" />
         </IconButton><br></br>
-        <IconButton style={{ color: 'Red' }} href="https://docs.google.com/document/d/1JiSAbaA48b2H8MbBd6K7iLBjb7lG6j75JHtte6amzFc/edit?usp=sharing" aria-label="Facebook">
+        <IconButton style={{ color: 'Red' }} href="https://docs.google.com/document/d/1JiSAbaA48b2H8MbBd6K7iLBjb7lG6j75JHtte6amzFc/edit?usp=sharing" aria-label="Resume">
           <DescriptionTwoToneIcon fontSize="large" />
         </IconButton>
       </CardContent>

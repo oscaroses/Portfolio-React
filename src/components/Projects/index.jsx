@@ -17,8 +17,9 @@ return (
     <Card style={{ background: 'tomato', color: 'white' }} class="card">
       <CardHeader align="center"  title="RoamForth"/>
       <CardMedia
-        class="card"
-        image="../../img/RoamForth.png"
+        component="img"
+        height="%100"
+        image="./img/RoamForth.png"
         title="RoamForth"
       />
       <CardContent >
@@ -41,7 +42,8 @@ return (
         title="Day-Planner"
       />
       <CardMedia
-        class="card"
+        component="img"
+        height="%100"
         image="./img/Day-Planner.png"
         title="Day-Planner"
       />
@@ -65,7 +67,8 @@ return (
         title="Weather Dashboard"
       />
       <CardMedia
-        class="card"
+        component="img"
+        height="%100"
         image="./img/WeatherDashboard.png"
         title="Weather Dashboard"
       />
@@ -89,7 +92,8 @@ return (
         title="Tracker-of-Workouts"
       />
       <CardMedia
-        class="card"
+        component="img"
+        height="%100"
         image="./img/Workout.png"
         title="Workout"
       />
@@ -114,7 +118,8 @@ return (
         subheader="Project 1"
       />
       <CardMedia
-        class="card"
+        component="img"
+        height="%100"
         image="./img/EmployeeTrack.png"
         title="EmployeeTrack"
       />
@@ -139,7 +144,8 @@ return (
         subheader="Project 1"
       />
       <CardMedia
-        class="card"
+        component="img"
+        height="%100"
         image="./img/ReadMeGen.png"
         title="ReadMeGen"
       />
